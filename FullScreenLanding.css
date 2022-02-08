@@ -1,0 +1,178 @@
+body{
+
+    margin: 0;
+
+}
+
+
+.section1 {
+
+    background-image: url("beach.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.h1 {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #926239;
+
+}
+
+.p1{
+
+    text-align: center;
+    color: #926239;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 7px 0px 3px 0px;
+
+}
+
+.button {
+
+    margin-top: 20px;
+    text-align: center;
+    border: 1.3px #926239 solid;
+    border-radius: 8px;
+   padding: 13px 20px;
+   text-decoration: none;
+   color: #926239;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+
+}
+
+
+.p2 {
+ 
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #926239;;
+    padding: 25px 25px;
+    color: white;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.p3 {
+
+    text-align: center;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #926239;
+    padding-top: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.7;
+    font-size: 17px;
+
+}
+
+.kolona1 {
+
+    background-color: #926239;
+    color: white;
+    width: 450px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 25px;
+    display: inline-block;
+    margin-bottom: 0px;
+
+}
+
+.kolona2 {
+
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    padding: 25px;
+    color: #926239;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 0px;
+
+}
+
+.kolona3 {
+
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    padding: 25px;
+    background-color: #926239;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 0px;
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .h1 {
+
+        text-align: center;
+        margin-top: 250px;
+
+    }
+
+    .p1{
+
+        text-align: left;
+        color: blue;
+        font-size: 30px;
+    
+    }
+
+    .button {
+
+        color: red;
+        background-color: blue;
+    
+    }
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .h1 {
+
+        text-align: center;
+        font-size: 40px;
+        margin-top: -10px;
+        background-color: aqua;
+
+
+    }
+
+
+    .p1 {
+        color: green;
+    }
+
+    .button {
+
+        font-size: 50px;
+
+    }
+
+    
+  }
+  
+  
